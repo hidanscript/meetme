@@ -1,0 +1,39 @@
+.signup-card form {
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.avatar-icon {
+    align-self: center;
+    padding:1em;
+}
+
+.avatar-icon input {
+    width:100px;
+    height:100px;
+    border-radius: 360px;
+    background-color: lightgray;
+}
+
+.avatar-icon input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.signup-card form label {
+    padding-bottom:1em;
+}
+
+.signup-card form input {
+    border:none;
+    border-bottom:1px solid gray;
+    margin-bottom: 1em;
+}
+
+.signup-card form input[type=submit] {
+    border:none;
+    padding:0.7em;
+    background-color:#7D68E8;
+    color: white;
+}

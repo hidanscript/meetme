@@ -10,6 +10,7 @@ function App() {
       <Route render={({location}) => (
         <Switch>
           <Route exact path="/" component={Routes.Landing} />
+          <Route path="/signup" component={Routes.SignUp} />
         </Switch>
       )} />
     </div>
